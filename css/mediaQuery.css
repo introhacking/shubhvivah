@@ -1,0 +1,245 @@
+/* 320px */
+@media only screen and (min-width: 17em) {
+  .mani_plan-destination {
+    display: block;
+  }
+  .mani_plan-img,
+  .mani_plan-content {
+    width: 100%;
+  }
+  .mani_plan-content p {
+    font-size: 20px;
+  }
+  .mani_plan-content h2 {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .mani_plan-content {
+    padding: 20px 0;
+  }
+  .mani_footer-wrapper {
+    display: block;
+  }
+  .mani_footer-title {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .mani_footer-title:not(:last-child) {
+    border-bottom: 1px solid #ffffff;
+  }
+  .mani_footer-wrapper ul li a {
+    font-size: 14px;
+  }
+  .mani_footer-btn button {
+    width: 100%;
+  }
+  .mani_footer-wrapper {
+    padding: 60px 30px;
+  }
+  .mani_content h2 {
+    font-size: 20px;
+  }
+  .mani_content p {
+    font-size: 15px;
+    margin: 5px 0;
+  }
+  .mani_glass {
+    width: 90%;
+  }
+  .mani_content button {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 10px;
+    margin: 15px 0;
+  }
+  .mani_content span {
+    margin: 0;
+  }
+  .mani_manu-wrapper {
+    display: none;
+  }
+  .mani_complete-wedding-card-wrapper {
+    width: 90%;
+  }
+  .mani_complete {
+    width: 100%;
+    height: auto;
+  }
+  .mani_complete-wedding h2 {
+    font-size: 27px;
+  }
+}
+@media only screen and (min-width: 28em) {
+  .mani_plan-content h2 {
+    font-size: 30px;
+  }
+  .mani_footer-title {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .mani_footer-title:not(:last-child) {
+    border-bottom: 0px solid #ffffff;
+  }
+  ul.mani_social-link {
+    justify-content: center;
+  }
+  .mani_content h2 {
+    font-size: 40px;
+    margin: 0px 0px 0px 0px;
+  }
+  .mani_content button {
+    padding: 10px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .mani_glass {
+    width: 80%;
+  }
+  .mani_complete {
+    width: 46%;
+  }
+  .mani_love-story h2 {
+    font-size: 35px;
+  }
+  .timeline {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 42.65em) {
+  .mani_footer-title {
+    width: 50%;
+    margin: 0;
+    text-align: left;
+  }
+  .mani_footer-wrapper {
+    display: flex;
+  }
+  ul.mani_social-link {
+    justify-content: flex-start;
+  }
+  .mani_content h2 {
+    font-size: 35px;
+  }
+  .mani_complete {
+    width: 31%;
+  }
+}
+@media only screen and (min-width: 55.1em) {
+  .mani_plan-destination {
+    display: flex;
+  }
+  .mani_plan-img,
+  .mani_plan-content {
+    width: 50%;
+    height: 100%;
+  }
+  .mani_plan-content p {
+    font-size: 30px;
+  }
+  .mani_plan-content h2 {
+    font-size: 40px;
+    padding: 0;
+  }
+  .mani_footer-title {
+    width: 25%;
+  }
+  .mani_footer-wrapper ul li i.fa {
+    display: inline-block;
+  }
+  .trigger_menu {
+    display: none;
+  }
+  .mani_manu-wrapper {
+    display: block;
+  }
+  .mani_complete-wedding-card-wrapper {
+    width: 80%;
+  }
+  .mani_complete {
+    width: 30%;
+  }
+}
+
+/* MAX WIDTH */
+@media only screen and (max-width: 1120px) {
+  .mani_vendors {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .mani_vendors {
+    width: 47%;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .mani_vendor-flex {
+    justify-content: center;
+  }
+  .mani_vendors {
+    width: 70%;
+  }
+  .mani_love-story {
+    width: 100%;
+  }
+  .timeline {
+    margin: 0px 0 15px 0;
+  }
+  .content {
+    max-height: 370px;
+  }
+  .mani_love-story p {
+    font-size: 15px;
+  }
+  .mani_left-handside {
+    padding: 15px;
+  }
+  .mani_left-handside,
+  .mani_right-handside {
+    width: 50%;
+  }
+  .bead,
+  .line,
+  .line::after,
+  .line::before {
+    display: none !important;
+    background-color: transparent;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .mani_vendors {
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+  .mani_testinomial-card .mani_text-hightlight {
+    font-size: 16px;
+    margin: 0;
+  }
+  /* .section {
+    margin: 0;
+    padding: 0;
+  } */
+  .bead {
+    display: none;
+  }
+  .content {
+    max-height: max-content;
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .mani_left-handside {
+    margin: 0;
+    padding: 15px;
+    border-radius: 0;
+  }
+  .mani_image-wrapper,
+  .mani_left-handside,
+  .mani_right-handside {
+    width: 100%;
+  }
+  .line,
+  .line::after,
+  .line::before {
+    display: none !important;
+  }
+}

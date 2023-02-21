@@ -1,0 +1,599 @@
+/* Font family (Nunito Sans) */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Nunito+Sans:wght@300;400;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  font-family: "Nunito Sans", sans-serif;
+  /* overflow-x: hidden; */
+}
+html {
+  font-size: 16px;
+}
+img {
+  max-width: 100%;
+  width: 100%;
+}
+a {
+  font-size: 15.5px;
+  font-weight: 600;
+}
+button {
+  border: none;
+  outline: none;
+  background-color: #fff7f6;
+  cursor: pointer;
+  padding: 10px 15px;
+  border: 0.5px solid red;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: red;
+  color: #ffffff;
+}
+input {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+/* Header section */
+.mani_header-wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
+    url("https://www.shubharambh.co.in/assets/img/_JAN2609.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  position: relative;
+}
+.mani_header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  padding: 5px 30px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.trigger_menu i.menu_bar {
+  font-size: 28px;
+  cursor: pointer;
+}
+.mani_glass {
+  background: linear-gradient(190deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  width: 80%;
+  height: 55vh;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.mani_glass-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88vh;
+}
+.mani_content {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px 15px;
+  flex-direction: column;
+}
+.mani_content h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0px;
+  text-shadow: 1px 3px #909090;
+  margin: 25px 0px 0px 0px;
+}
+.mani_content p {
+  text-align: center;
+  font-size: 20px;
+  color: aliceblue;
+  /* margin: 0px 0px 15px 0px; */
+}
+.mani_button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mani_content button {
+  max-width: max-content;
+  text-align: center;
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  /* margin: 10px; */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.mani_content button:hover {
+  background-color: red;
+  color: #ffffff;
+}
+.mani_content span {
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  margin: 15px 0px;
+}
+.mani_manu-wrapper,
+.mani_manu-wrapper ul {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.mani_manu-wrapper ul li {
+  position: relative;
+  margin-right: 25px;
+}
+.mani_manu-wrapper ul li:last-child() {
+  margin-right: 0px;
+}
+.mani_manu-wrapper ul li a {
+  padding: 10px 0px;
+  border-radius: 5px;
+  /* color: #808080; */
+  color: black;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+.mani_manu-wrapper ul li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.155rem;
+  transform: scale(0, 1);
+  transform-origin: 0% 100%;
+  background-color: red;
+  transition: all 0.5s ease;
+}
+.mani_manu-wrapper ul li:hover::after {
+  color: red;
+  transform: scale(1, 1);
+}
+
+/* EXPERT MANAGEMENT FOR WEDDING */
+.mani_expert-manage {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 20px;
+  line-height: 1.4;
+}
+.mani_expert-manage h2 {
+  margin-bottom: 10px;
+}
+.mani_expert-video {
+  border: 1px solid grey;
+  width: 80%;
+  margin: 0 auto;
+  height: 60%;
+  margin-bottom: 40px;
+}
+.mani_expert-video video {
+  width: 100%;
+  height: 100%;
+}
+
+/* OUR LOVE STORY */
+.mani_love-story-wrapper {
+  background-color: #f8f8ff; /*ghost white color*/
+}
+.mani_love-story {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+.mani_love-story p {
+  font-weight: 400;
+  font-size: 18px;
+  padding: 10px 0 5px 0;
+  text-align: left;
+}
+.mani_love p {
+  text-align: center;
+}
+.mani_love-story h2 {
+  font-size: 34px;
+}
+.timeline {
+  position: relative;
+  min-height: 180px;
+  overflow: hidden;
+  margin: 30px 0;
+}
+.line {
+  position: absolute;
+  z-index: 2;
+  left: calc(50% - 1px);
+  width: 2px;
+  top: 50px;
+  bottom: -50px;
+  background-color: aqua;
+  display: none;
+}
+.line::after,
+.line::before {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: red;
+  left: 42px;
+  transform: translateX(-50px);
+}
+.line::after {
+  bottom: -15px;
+}
+.section {
+  display: flex;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: 600ms ease;
+  position: relative;
+  z-index: 1;
+  margin: 50px 0;
+  padding: 1rem;
+  border-radius: 1rem;
+  align-items: center;
+  min-height: 200px;
+}
+.section:nth-child(odd) {
+  flex-direction: row-reverse;
+  transform: translateX(100%);
+}
+.bead {
+  position: absolute;
+  display: block;
+  height: 1rem;
+  width: 1rem;
+  background-color: green;
+  left: 50%;
+  top: 40%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+}
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: inherit;
+  max-height: 300px;
+}
+.mani_left-handside,
+.mani_right-handside {
+  width: 47%;
+}
+.mani_left-handside {
+  background-color: #edf5f7;
+  color: #818491;
+  padding: 30px;
+  border-radius: 8px;
+  margin: 0 -15px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.mani_left-handside h2 {
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: left;
+  color: #000000;
+}
+.show-me:nth-child(n) {
+  transform: none;
+  opacity: 1;
+}
+.mani_image-wrapper {
+  width: 95%;
+  margin: 0 auto;
+  height: 100%;
+  border-radius: 5px;
+}
+
+/* COMPLETE WEDDING PLANNING */
+.mani_complete-wedding-wrapper {
+  width: 100%;
+  background-color: #fff7f6;
+  padding: 20px 0px;
+}
+.mani_complete-wedding,
+.mani_complete-wedding-card-wrapper {
+  text-align: center;
+  width: 80%;
+  margin: 50px auto 30px auto;
+}
+.mani_complete-wedding h2 {
+  font-size: 30px;
+}
+.mani_complete-wedding p {
+  font-size: 18px;
+  margin: 0;
+}
+.mani_complete-wedding-card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.mani_complete {
+  position: relative;
+  width: 31.33%;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.11);
+  overflow: hidden;
+}
+.mani_complete .poster {
+  overflow: hidden;
+  position: relative;
+}
+.mani_complete .poster:before {
+  content: "";
+  position: absolute;
+  bottom: -80px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #0aa3d6 50%, transparent);
+  z-index: 1;
+  transition: 0.5s;
+}
+.mani_complete:hover .poster:before {
+  bottom: 0px;
+}
+.mani_complete .poster img {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+.mani_complete:hover .poster img {
+  transform: translateY(-50px);
+  filter: blur(3px);
+}
+.mani_complete .mani_poster-content {
+  position: absolute;
+  width: 100%;
+  bottom: -100px;
+  left: 0px;
+  padding: 20px 5px;
+  transition: 0.5s;
+  z-index: 2;
+}
+.mani_complete .mani_poster-content h3 {
+  margin: 20px 0px;
+}
+.mani_complete:hover .mani_poster-content {
+  bottom: 15px;
+}
+.mani_complete .mani-poster-info {
+  color: #f8f8ff;
+  margin-top: 10px;
+  position: relative;
+}
+.mani_complete .mani-poster-info p {
+  font-size: 10px;
+  transition: 0.5ms;
+}
+.mani_complete:hover .mani-poster-info p {
+  font-size: 18px;
+}
+.mani_complete .mani-poster-info button {
+  border: none;
+  padding: 10px 15px;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}
+.mani_complete .mani-poster-info button:hover {
+  background-color: rgb(247, 43, 43);
+  color: #f8f8ff;
+}
+.mani_plan-destination {
+  /* display: flex; */
+  align-items: center;
+}
+.mani_plan-img {
+  width: 50%;
+}
+.mani_plan-content {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+}
+.mani_plan-content p {
+  /* font-size: 30px; */
+  font-weight: 500;
+}
+.mani_plan-content h2 {
+  /* font-size: 45px; */
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 5px 0;
+}
+.mani_plan-content button {
+  border: none;
+  outline: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 1px solid red;
+  border-radius: 5px;
+  font-size: 18px;
+}
+/* PREMIUM VENTORS */
+.mani-vendor-wrapper {
+  background-color: #f8f8ff;
+  padding: 60px 0px;
+  text-align: center;
+}
+.mani_premium-content {
+  text-align: center;
+}
+.mani_vendor-flex {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  padding: 30px 0px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+.mani_vendors {
+  border-radius: 5px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+  width: 23%;
+  overflow: hidden;
+}
+.mani_vendor-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.mani_ventor-address {
+  font-size: 13px;
+  color: #555555;
+}
+.mani_vendor-img img {
+  width: 100%;
+  height: fit-content;
+  border-top: 5px;
+}
+.mani_vendor-title {
+  font-size: 12px;
+  margin: 5px 0;
+}
+.mani_vendor-subtitle {
+  font-size: 20px;
+  font-weight: 700;
+}
+.mani_vendor-content button {
+  width: max-content;
+  margin: 10px 0;
+  border: 0.5px solid red;
+  border-radius: 5px;
+}
+/* NEW COUPLE ABOUT SAY */
+.mani_new-couple {
+  padding: 60px 10px;
+  text-align: center;
+}
+.mani_couple-testinomial {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.mani_testinomial-card {
+  width: 350px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+}
+.mani_circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: url("https://www.shubharambh.co.in/assets/img/service1.png");
+  background-size: cover;
+  float: left;
+  shape-outside: circle();
+  margin: 20px 15px 15px 0px;
+}
+.mani_testinomial-card p {
+  margin: 15px 0px 0px;
+  padding: 10px;
+  text-align: justify;
+  font-size: 14px;
+  line-height: 22px;
+}
+.mani_testinomial-card .mani_text-hightlight {
+  text-align: center;
+  font-size: 20px;
+  color: crimson;
+  font-style: italic;
+}
+/* FOOTER */
+.mani_footer-wrapper {
+  background-color: red;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px 50px;
+}
+.mani_footer-title {
+  color: #ffffff;
+  /* border: 1px solid; */
+  width: 25%;
+}
+.mani_footer-title h2 {
+  font-size: 24px;
+}
+.mani_footer-btn {
+  margin: 10px 0;
+  font-size: 18px;
+}
+ul.mani_social-link {
+  display: flex;
+  justify-content: flex-start;
+  /* border: 1px solid; */
+}
+.mani_social-link .fa {
+  color: #ffffff;
+  opacity: 0.7;
+  font-size: 24px;
+  margin: 5px 0px 10px;
+}
+.mani_social-link .fa:hover {
+  opacity: 1;
+}
+.mani_social-link .fa:nth-last-child(n) {
+  margin-right: 18px;
+}
+.mani_footer-wrapper ul li {
+  margin: 10px 0;
+}
+.mani_footer-wrapper ul li a {
+  color: #ffffff;
+}
+.mani_footer-wrapper ul li a:hover {
+  opacity: 0.7;
+  margin-left: 5px;
+  transition: all 0.2s ease;
+}
+.mani_footer-wrapper ul li i.fa {
+  font-size: 11px;
+  margin-right: 3px;
+  transition: all 0.5s ease;
+  display: none;
+}
